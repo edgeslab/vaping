@@ -4,13 +4,13 @@ Supplementary materials for S. Adhikari, A. Uppal, R. Mermelstein, T. Berger-Wol
 ## Description
 The following is the description of the folders and subfolders.
 - `instructions`
-  - `labelbox`: Instructions for annotating 500 JUUL and 500 cannabis-related tweets for three questions (Q1, Q2, Q3).
-  - `mturk`: Instructions for annotating 1000 JUUL and 1000 cannabis-related tweets for two questions (Q1, Q2).
+  - `labelbox`: Instructions for annotating 500 JUUL and 500 cannabis-related tweets for three questions (Q1, Q2, Q3) using LabelBox platform.
+  - `mturk`: Instructions for annotating 1000 JUUL and 1000 cannabis-related tweets for two questions (Q1, Q2) using Amazon Mechanical Turk platform.
 
 - `dataset`
   - `mapping`: `allJuulIds.zip` and `allCannabisIds.zip` contain the mapping between internal ID and actual Tweet ID. These are large files containing Tweet IDs for all tweets extracted by keyword/hashtag filtering as described in the paper.
-  - `labelbox`: Annotations for Tweets in labelbox with two annotators, `A1` and `A2`, per tweet.
-  - `mturk`: Annotations for Tweets in mturk performed with three annotators per tweet.
+  - `labelbox`: Annotations for Tweets in LabelBox with two annotators, `A1` and `A2`, per tweet.
+  - `mturk`: Annotations for Tweets in Amazon Mechanical Turk performed with three annotators per tweet.
 
 ## Questions
 Here `<target>` can be either `e-cigarettes` or `cannabis`.
